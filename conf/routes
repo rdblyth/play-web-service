@@ -1,0 +1,2 @@
+GET           /action/:id           controllers.ActionController.getAction(id: Long)
+POST          /action               controllers.ActionController.createAction(verb: String, objectType: String, objectUri: String)
